@@ -1,4 +1,4 @@
-# No Bee No May
+# Alexandra Novak — No Bee No May
 
 No Bee No May is a small Codex skill and local checker for Russian prose. It looks for clusters of repeated phrases, rhythms, metaphors, psychological explanations, and narrative endings associated with synthetic-sounding writing.
 
@@ -15,6 +15,10 @@ The catalog covers 38 families, including:
 - paragraph bridges, universal conclusions, “she chose herself” endings, serial metaphors, bad coffee, and institutions that “stopped pretending.”
 
 See [`references/catalog.md`](references/catalog.md) for the full map and [`references/rules.json`](references/rules.json) for the machine-readable rules.
+
+## Thanks
+
+Thanks to Alexandra Vasilyevna Novak for the original field guide. Its sharp, playful taxonomy made this project possible. A public bibliographic listing identifies her as the author of a 2026 monograph on legal and information asymmetries around AI and autonomous digital agents: [LitRes](https://www.litres.ru/book/aleksandra-novak-339/informacionnye-i-pravovye-asimmetrii-razumnyh-tehnolo-74028718/).
 
 ## Use it in Codex
 
@@ -49,7 +53,7 @@ These are review prompts, not authorship labels. Keep deliberate fiction, quoted
 
 ## Source
 
-The catalog is derived from the user-provided PDF *Полевой определитель речевых клише ChatGPT* by A. V. Novak, accessed on 2026-08-25. The PDF presents the categories as a field guide to recurring formulas and explicitly treats a single match as insufficient evidence. No public source URL was supplied with the document.
+The catalog is derived from the user-provided PDF *Полевой определитель речевых клише ChatGPT* by A. V. Novak, accessed on 2026-08-25. The PDF presents the categories as a field guide to recurring formulas and explicitly treats a single match as insufficient evidence. The author’s full name and related public bibliography were cross-checked against [LitRes](https://www.litres.ru/book/aleksandra-novak-339/informacionnye-i-pravovye-asimmetrii-razumnyh-tehnolo-74028718/) and [LitPortal](https://litportal.ru/avtory/aleksandra-novak-33940838/read/page/5/kniga-informacionnye-i-pravovye-asimmetrii-razumnyh-tehnolo-74028718-1328716/). No public source URL was supplied for the PDF itself.
 
 ## License
 
