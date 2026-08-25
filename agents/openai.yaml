@@ -1,0 +1,4 @@
+interface:
+  display_name: "No Bee No May"
+  short_description: "Russian synthetic-prose cliché review"
+  default_prompt: "Use $no-bee-no-may to review a Russian text for clustered synthetic-prose clichés."
