@@ -1,9 +1,9 @@
 ---
-name: no-bee-no-may
+name: slopectomy
 description: "Use when reviewing Russian prose, marketing copy, essays, or UI text for clustered synthetic-writing cliches catalogued in the Novak field guide. Detects phrase, rhythm, metaphor, psychologizing, and narrative signatures; reports evidence without claiming authorship or AI provenance. Do not use as a standalone AI detector or as a replacement for Sasha's UI-copy rules."
 ---
 
-# No Bee No May
+# Slopectomy
 
 Review Russian text for a recognizable cluster of synthetic-prose cliches from the supplied field guide by A. V. Novak. The goal is a useful stylistic diagnosis: show the exact wording, name the pattern, explain why it feels formulaic, and suggest a plainer or more specific direction only when the user asks for editing.
 
@@ -22,8 +22,8 @@ Review Russian text for a recognizable cluster of synthetic-prose cliches from t
 2. Run the deterministic scan when the files are accessible:
 
    ```bash
-   python3 no-bee-no-may/scripts/no_bee_no_may.py --text "..."
-   python3 no-bee-no-may/scripts/no_bee_no_may.py path/to/file.md --format md
+   python3 slopectomy/scripts/slopectomy.py --text "..."
+   python3 slopectomy/scripts/slopectomy.py path/to/file.md --format md
    ```
 
    The script is a triage aid, not the final judgment. Read `references/catalog.md` when interpreting a category and `references/rules.json` when extending or auditing the matcher.
@@ -74,4 +74,4 @@ Do not rewrite medical, legal, consent, safety, or quoted text automatically. Fl
 
 - `references/catalog.md` — human-readable map of all 38 categories from the field guide.
 - `references/rules.json` — matcher rules, representative examples, confidence, and source notes.
-- `scripts/no_bee_no_may.py` — deterministic local scan for text and common repository files.
+- `scripts/slopectomy.py` — deterministic local scan for text and common repository files.

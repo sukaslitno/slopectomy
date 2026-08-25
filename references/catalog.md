@@ -1,6 +1,6 @@
 # Cliché catalog
 
-This is the human-readable map used by `no_bee_no_may.py`. The category names and representative examples are condensed from the supplied field guide. The catalog is a review aid, not a blacklist: context and clustering matter.
+This is the human-readable map used by `slopectomy.py`. The category names and representative examples are condensed from the supplied field guide. The catalog is a review aid, not a blacklist: context and clustering matter.
 
 ## Part I — Syntax machines
 

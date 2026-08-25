@@ -6,14 +6,14 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPT = ROOT / "scripts" / "no_bee_no_may.py"
-spec = importlib.util.spec_from_file_location("no_bee_no_may", SCRIPT)
+SCRIPT = ROOT / "scripts" / "slopectomy.py"
+spec = importlib.util.spec_from_file_location("slopectomy", SCRIPT)
 assert spec and spec.loader
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 
-class NoBeeNoMayTests(unittest.TestCase):
+class SlopectomyTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.rules = module.load_rules(ROOT / "references" / "rules.json")

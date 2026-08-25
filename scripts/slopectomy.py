@@ -230,7 +230,7 @@ def render_text(report: Dict[str, Any]) -> str:
 
 
 def render_markdown(reports: Sequence[Dict[str, Any]]) -> str:
-    lines = ["# No Bee No May report", "", "The report describes stylistic signals. It does not identify authorship or prove model use.", ""]
+    lines = ["# Slopectomy report", "", "The report describes stylistic signals. It does not identify authorship or prove model use.", ""]
     for report in reports:
         lines.extend(
             [

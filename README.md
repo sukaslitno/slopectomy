@@ -1,6 +1,6 @@
-# Alexandra Novak — No Bee No May
+# Slopectomy
 
-No Bee No May is a Codex skill and a small local checker for Russian prose. It finds clusters of repeated phrases, rhythms, metaphors, psychological explanations, and narrative endings that can make a passage sound synthetic.
+Slopectomy is a Codex skill and a small local checker for Russian prose. It finds clusters of repeated phrases, rhythms, metaphors, psychological explanations, and narrative endings that can make a passage sound synthetic.
 
 The checker shows concrete matches and pattern density. It is a review aid, not a conclusion about where a text came from.
 
@@ -22,20 +22,20 @@ Thanks to Alexandra Vasilyevna Novak for the original field guide. Its sharp, pl
 
 ## Use it in Codex
 
-Install the skill folder under `~/.codex/skills/no-bee-no-may`, then invoke it explicitly:
+Install the skill folder under `~/.codex/skills/slopectomy`, then invoke it explicitly:
 
 ```text
-$no-bee-no-may Проверь этот текст на скопление синтетических клише и покажи точные фрагменты.
+$slopectomy Проверь этот текст на скопление синтетических клише и покажи точные фрагменты.
 ```
 
-For Russian UI copy, pair it with `sasha`: `sasha` handles clarity, component conventions, and typography; No Bee No May checks the synthetic-prose layer.
+For Russian UI copy, pair it with `sasha`: `sasha` handles clarity, component conventions, and typography; Slopectomy checks the synthetic-prose layer.
 
 ## Run the checker
 
 ```bash
-python3 scripts/no_bee_no_may.py --text "Не страх, не слабость, не привычка. Психика уже всё поняла."
-python3 scripts/no_bee_no_may.py draft.md --format md
-python3 scripts/no_bee_no_may.py notes/ --format json
+python3 scripts/slopectomy.py --text "Не страх, не слабость, не привычка. Психика уже всё поняла."
+python3 scripts/slopectomy.py draft.md --format md
+python3 scripts/slopectomy.py notes/ --format json
 ```
 
 The text report includes the category, matched span, confidence, and a rough cluster diagnosis. JSON is intended for other tools. The checker skips common repository noise such as `.git`, `node_modules`, `dist`, and fenced code blocks.
